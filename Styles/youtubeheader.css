@@ -1,0 +1,36 @@
+
+.header{
+    height: 60px; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.left-header{
+    background-color: lightpink;
+    flex: 1;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+}
+
+.search-bar{
+    border-radius: 12px;
+    width: 400px;
+}
+
+.middle-header{
+    background-color: lightgreen;
+    flex: 1;
+    margin-left: 70px;
+    max-width: 600px;
+    margin-right: 40px;
+    
+}
+
+.right-header{
+    background-color: lightblue;
+    /*width: 250px;*/
+    flex: 1;
+    
+}
